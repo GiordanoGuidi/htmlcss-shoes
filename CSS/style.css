@@ -1,0 +1,53 @@
+/*CSS RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*GENERICS*/
+
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+    background-color: black;
+}
+
+.border{
+    border: 2px dashed white;
+}
+
+.flex{
+    display: flex;
+}
+
+
+
+/*UTILS*/
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.full-page{
+    height: 99vh;
+    background-color: red;
+}
+
+/*MAIN*/
+
+.col{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 50%;
+}
+
+.card-image{
+    width: 100%;
+    height: auto;
+}
