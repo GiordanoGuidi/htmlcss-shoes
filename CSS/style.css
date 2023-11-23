@@ -29,8 +29,8 @@ body{
     margin: 0 auto;
 }
 
-.semi-full-page{
-    height: 99vh;
+.full-page{
+    height: 100vh;
 }
 
 .bg-red{
@@ -103,13 +103,13 @@ ul{
 .side-menu{
 position: fixed;
 top: 40px;
-right: 260px;
-}
-
-.side-menu a:active{
-    scale: 0.9;
+right: 30px;
 }
 
 .side-menu a:hover{
-    scale: 1.6;
+   scale: 1.2;
+}
+
+.side-menu a :active{
+    scale: 0.9;
 }
